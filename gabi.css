@@ -184,7 +184,7 @@ nav {
 }
  .btn {
     display: inline-block;
-	border: 1px solid #a3c2c2 ;
+	border: 1px #a3c2c2 ;
     border-radius: 5px;
     text-align: center;
     color: #476b6b;
@@ -290,12 +290,12 @@ section {
 
 footer {
   position: relative;
-  left: 38%;
+  left: 18%;
   height: auto;
-  width: 24vw;
+  width: 64vw;
   font-family: 'Fraunces', serif;
   background-color: #a3c2c2;
-  border-radius: 10px;
+  border-radius: 200px;
   padding: .1rem;
   display: flex;
   justify-content: center;
@@ -314,4 +314,3 @@ footer li {
   display: inline;
   font-size: 2.5rem;
 }
-
