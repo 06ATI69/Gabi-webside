@@ -52,44 +52,19 @@ table {
 }
 
 
-/* ==== BILL HEAD / QUOTE STYLES ==== */
+/* ==== COVER STYLES ==== */
 
 
 .cover {
-  background: url('assets/seaside2.jpg') no-repeat center;
+  background: url('assets/background.jpg') no-repeat center;
   background-size: cover;
-  height: 100vh;
+  height: 45vh;
   width: 100vw;
   color: hsl(0, 0%, 0%);
   font-family: 'Cormorant Garamond', serif;
   text-align: center;
   display: table;
 }
-.wrapper {
-  display: table-cell;
-  vertical-align: middle;
-}
-.wrapper p {
-  font-size: 1.3rem;
-}
-.byline h1 {
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  letter-spacing: .1rem;
-  margin-bottom: .5rem;
-  text-transform: uppercase;
-}
-
-.byline p {
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-}
-
-.headline {
-  font-size: 3rem;
-  margin: 2rem 0;
-}
-
 
 /* ==== HTML ATTRIBUTE STYLES ==== */
 
@@ -132,7 +107,7 @@ h6 {
   text-align: center;
   font-family: 'Fraunces', sans-serif;
   font-size: 1.3rem;
-  color: #75a3a3;
+  color: #3d5c5c;
 }
 
 
@@ -153,10 +128,10 @@ h6 {
 
 #profil {
   float: right;
-  width: 230px;
-  height: 300px;
+  width: 14.375rem;
+  height: 17.1875rem;
   border-radius: 10%;
-  padding: 20px;
+  padding: .2rem;
 }
 #profil:hover {
   transform: scale(1.1);
@@ -175,8 +150,6 @@ nav {
   max-width: 100%;
   background-color: #b3cccc;
   padding: .5rem;
-  border-radius: 10px;
-  margin: 1rem;
   text-align: center;
   font-size: 1.4rem;
   font-family: 'Fraunces', serif;
@@ -301,11 +274,8 @@ footer {
   justify-content: center;
   align-items: center;
 }
-a {
+i {
   color: #595959;
-}
-a:hover {
-  color: whitesmoke;
 }
 footer ul {
   list-style-type: none;
@@ -314,3 +284,5 @@ footer li {
   display: inline;
   font-size: 2.5rem;
 }
+
+/* === BY 06ATI69 ===*/
