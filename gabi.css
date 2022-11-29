@@ -127,11 +127,12 @@ h6 {
 
 
 #profil {
-  float: right;
   width: 14.375rem;
   height: 17.1875rem;
   border-radius: 10%;
   padding: .2rem;
+  position: relative;
+  left: 39%;
 }
 #profil:hover {
   transform: scale(1.1);
