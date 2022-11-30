@@ -121,7 +121,11 @@ h6 {
   padding: 20px;
   border-radius: 30px;
   }
-  
+#container-foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
  /* ==== FOTO STYLES ==== */
 
@@ -131,8 +135,6 @@ h6 {
   height: 17.1875rem;
   border-radius: 10%;
   padding: .2rem;
-  position: relative;
-  left: 39%;
 }
 #profil:hover {
   transform: scale(1.1);
