@@ -151,7 +151,7 @@ a:hover {
 
 nav {
   max-width: 100%;
-  background-color: #b3cccc;
+  background-color: hsla(180, 20%, 60%, .6);
   padding: .5rem;
   text-align: center;
   font-size: 1.4rem;
@@ -160,7 +160,7 @@ nav {
 }
  .btn {
     display: inline-block;
-	border: 1px #a3c2c2 ;
+	border-bottom: 1px solid #476b6b ;
     border-radius: 5px;
     text-align: center;
     color: #476b6b;
