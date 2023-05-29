@@ -59,7 +59,7 @@ table {
   background: url('assets/background.jpg') no-repeat center;
   background-size: cover;
   height: 45vh;
-  width: 100vw;
+  width: 100%;
   color: hsl(0, 0%, 0%);
   font-family: 'Cormorant Garamond', serif;
   text-align: center;
@@ -83,7 +83,7 @@ body {
  ;
 }
 h2 {
-  font-family: 'Fraunces', serif;
+  font-family:'Dosis', sans-serif;
   text-align: center;
   font-size: 1.5rem;
   line-height: 1.25;
@@ -91,7 +91,7 @@ h2 {
   color:#476b6b ;
 }
  p, ul, li {
-  font-family: 'Fraunces', serif;
+  font-family: 'Dosis', sans-serif;
   text-align: center;
   font-size: 1.1rem;
   line-height: 1.5rem;
@@ -99,14 +99,14 @@ h2 {
 }
 h4 {
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 1.3rem;
   color: #5c8a8a;
 }
 h6 {
   text-align: center;
-  font-family: 'Fraunces', sans-serif;
-  font-size: 1.3rem;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.4rem;
   color: #3d5c5c;
 }
 
@@ -126,6 +126,7 @@ h6 {
   justify-content: center;
   align-items: center;
 }
+
 
  /* ==== FOTO STYLES ==== */
 
@@ -147,7 +148,9 @@ a:hover {
   color: whitesmoke;
 }
 
+
 /* === CHOICES === */
+
 
 nav {
   max-width: 100%;
@@ -155,21 +158,23 @@ nav {
   padding: .5rem;
   text-align: center;
   font-size: 1.4rem;
-  font-family: 'Fraunces', serif;
-  word-spacing: 1.2rem;
+  font-family: 'Dosis', sans-serif;
+  
 }
  .btn {
     display: inline-block;
-	border-bottom: 1px solid #476b6b ;
-    border-radius: 5px;
+	border-bottom: 1px solid;
     text-align: center;
     color: #476b6b;
+    margin: 4px;
  }
 a {
     text-decoration: none;
 }
 
+
 /* ==== COACH STYLES ==== */
+
 
 section {
   max-width: 90%;
@@ -187,7 +192,9 @@ section {
   border-radius: 30px;
   } 
 
+
 /* === Slideshow container === */
+
 
 #references {
   max-width: 100vh;
@@ -195,7 +202,9 @@ section {
   margin: auto;
 }
 
+
 /* === Next & previous buttons === */
+
 
 .prev, .next {
   cursor: pointer;
@@ -212,20 +221,26 @@ section {
   user-select: none;
 }
 
+
 /*  === Position the "next button" to the right === */
+
 
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
+
 /* === On hover, add a black background color with a little bit see-through === */
+
 
 .prev:hover, .next:hover {
   background-color: #a3c2c2;
 }
 
+
 /* === The dots/bullets/indicators === */
+
 
 .dot {
   cursor: pointer;
@@ -254,13 +269,23 @@ section {
   to {opacity: 1}
 }
 
+
 /* === On smaller screens, decrease text size === */
+
 
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
   
-  
+ 
+/* ==== KIT STYLES ==== */
+
+
+.signal  {
+  font-size: 4rem;
+}
+
+
 /* ==== FOOTER STYLES ==== */
 
 
@@ -269,7 +294,7 @@ footer {
   left: 18%;
   height: auto;
   width: 64vw;
-  font-family: 'Fraunces', serif;
+  font-family: 'Dosis', sans-serif;
   background-color: #a3c2c2;
   border-radius: 200px;
   padding: .1rem;
@@ -279,6 +304,9 @@ footer {
 }
 i {
   color: #595959;
+}
+footer h1 {
+  font-family: 'Dosis', sans-serif;
 }
 footer ul {
   list-style-type: none;
