@@ -1,9 +1,9 @@
 # *
 User-agent: *
-Disallow: /
+Allow: /
 
 # Host
-Host: https://elonezet.websub.hu/kissgabriella_com
+Host: https://kissgabriella.com
 
 # Sitemaps
-Sitemap: https://elonezet.websub.hu/kissgabriella_com/sitemap.xml
+Sitemap: https://kissgabriella.com/sitemap.xml
