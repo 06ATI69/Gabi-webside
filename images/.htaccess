@@ -1,0 +1,28 @@
+RewriteEngine On
+RewriteBase /images/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Check if cached file exists
+RewriteCond %{DOCUMENT_ROOT}/images/cache/$1-$2-$3.webp -f
+# If it does, serve that file directly
+RewriteRule ^([^/]+\.(png|jpg|jpeg|gif))\?width=([0-9]+)&quality=([0-9]+)$ cache/$1-$2-$3.webp [L]
+
+# Otherwise, redirect to the PHP script
+RewriteRule ^([^/]+\.(png|jpg|jpeg|gif))$ index.php?image=uploads/$1 [L,QSA]
+
+<IfModule mod_expires.c>
+    # Enable expirations
+    ExpiresActive On 
+
+    # Default directive
+    ExpiresDefault "access plus 1 month"
+
+    # Set image cache to 1 month
+    ExpiresByType image/webp "access plus 1 month"
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+</IfModule>
